@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🐛 Send feedback from inside the app (best for bugs)
+    url: https://play.google.com/store/apps/details?id=com.floating.lyrics
+    about: Settings → Send feedback attaches diagnostics that make a bug far easier to track down than a written description.
+  - name: 🔒 Security vulnerability
+    url: https://github.com/fewling/flutter-floating-lyric-releases/security/advisories/new
+    about: Please report security issues privately, not as a public issue.

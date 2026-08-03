@@ -50,9 +50,16 @@ separate private repository.
 
 ## Feedback and bug reports
 
-Use **Settings → Send feedback** inside the app. It attaches the diagnostic
-details needed to actually track a problem down, which is far more useful than a
-bare description. Play Store reviews are read too.
+**For bugs, prefer Settings → Send feedback inside the app.** It attaches
+diagnostic details that a written description can't, and that's usually what
+turns a vague report into a fix.
+
+For everything else — feature ideas, questions, or a bug you can't report from
+inside the app — [open an issue](https://github.com/fewling/flutter-floating-lyric-releases/issues/new/choose).
+Play Store reviews are read too.
+
+Issues here are for the app itself. The source code lives elsewhere and is not
+public, so please don't expect code-level discussion.
 
 ## Changelog
 
