@@ -32,16 +32,21 @@ lyrics window to work.
 
 **Requires Android 7.0 (Nougat, API 24) or newer.**
 
-## Switching between Play and these APKs
+## If you already have the app from Google Play
 
-These are the exact signed builds Google Play distributes — not separate
-rebuilds. That means you can install an APK from here over a Play install, or
-install from Play over an APK from here, **without uninstalling first**. Your
-settings and saved lyrics stay put.
+> [!IMPORTANT]
+> **Don't mix the two.** These APKs are built separately from the Play release.
+> Android treats them as different apps, so installing one over the other fails
+> with "App not installed".
+>
+> If you already use the Play version, stay on Play — it updates itself. Use
+> these downloads only if Play isn't an option for you.
+>
+> Switching either direction means uninstalling first, which **erases your
+> settings and saved lyrics**.
 
-Installing an older version over a newer one is the one exception: Android
-blocks version downgrades, so uninstall first if you're going back. That
-*will* clear the app's local data.
+Installing an older version over a newer one also requires uninstalling first,
+since Android blocks version downgrades.
 
 ## What's in this repository
 
