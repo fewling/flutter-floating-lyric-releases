@@ -30,23 +30,29 @@ On first launch the app asks for **notification access** (to see what's playing)
 and **display over other apps** (to draw the overlay). Both are required for the
 lyrics window to work.
 
-**Requires Android 7.0 (Nougat, API 24) or newer.**
+**The latest release requires Android 7.0 (Nougat, API 24) or newer.**
+Historical builds list their own minimum Android requirements in their release notes.
 
 ## If you already have the app from Google Play
 
-> [!IMPORTANT]
-> **Don't mix the two.** These APKs are built separately from the Play release.
-> Android treats them as different apps, so installing one over the other fails
-> with "App not installed".
->
-> If you already use the Play version, stay on Play — it updates itself. Use
-> these downloads only if Play isn't an option for you.
->
-> Switching either direction means uninstalling first, which **erases your
-> settings and saved lyrics**.
+The archived Play-signed APKs use the same app-signing certificate as Google
+Play. A compatible higher build can normally update a Play-installed copy
+without uninstalling. Each filename includes the version and build number;
+releases with several builds provide a separate APK for each one.
 
-Installing an older version over a newer one also requires uninstalling first,
-since Android blocks version downgrades.
+> [!IMPORTANT]
+> **Downgrading normally requires uninstalling first**, even when both APKs
+> have the same signing certificate. Uninstalling clears local settings and
+> saved lyrics. Export any data you need before switching, where possible.
+
+The original **floating-lyrics-6.8.3-63-universal.apk** is a legacy build signed
+separately from Play. It remains available for existing users, but it cannot
+update a Play-installed copy. For the Play-signed build of that version, use
+**floating-lyrics-6.8.3-63-play-universal.apk** instead.
+
+Archived builds are preserved for access to previous versions; compatibility
+with current Android versions and online services is not guaranteed. Newly
+archived downloads include **.sha256** files for checking file integrity.
 
 ## What's in this repository
 
